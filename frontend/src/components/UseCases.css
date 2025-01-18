@@ -1,0 +1,28 @@
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .scroll-content {
+    display: flex;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .scroll-content.paused {
+    animation-play-state: paused;
+  }
+  
+  .card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    margin-right: 16px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
