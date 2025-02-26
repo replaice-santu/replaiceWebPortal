@@ -16,31 +16,32 @@ const Footer = () => {
             <p className="mt-4 text-white-600">AI-powered efficiency for modern businesses.</p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-white-600 hover:text-blue-600"><FaTwitter size={24} /></a>
-              <a href="#" className="text-white-600 hover:text-blue-600"><FaLinkedin size={24} /></a>
+              <a href="https://www.linkedin.com/company/replaice" className="text-white-600 hover:text-blue-600"><FaLinkedin size={24} /></a>
               <a href="#" className="text-white-600 hover:text-blue-600"><FaGithub size={24} /></a>
             </div>
           </div>
 
           {/* Product Links */}
           <div>
-            <h3 className="text-lg font-semibold text-white-800">About Us</h3>
+            <h3 className="text-lg font-semibold text-white-800">About replaice</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-white-600 hover:text-blue-600">Features</a></li>
-              <li><a href="#" className="text-white-600 hover:text-blue-600">Pricing</a></li>
-              <li><a href="#" className="text-white-600 hover:text-blue-600">Security</a></li>
+              <li><a href="#" className="text-white-600 hover:text-blue-600">About</a></li>
+              <li><a href="#" className="text-white-600 hover:text-blue-600">Team</a></li>
+              <li><a href="#" className="text-white-600 hover:text-blue-600">Career</a></li>
             </ul>
           </div>
 
           {/* Resources Links */}
           <div>
-            <h3 className="text-lg font-semibold text-white-800">Contact Us</h3>
+            <h3 className="text-lg font-semibold text-white-800">Explore replaice</h3>
+            
             <ul className="mt-4 space-y-2">
+              <li><a href="#" className="text-white-600 hover:text-blue-600">Consulting</a></li>
               <li><a href="#" className="text-white-600 hover:text-blue-600">Blog</a></li>
-              <li><a href="#" className="text-white-600 hover:text-blue-600">Documentation</a></li>
               <li><a href="#" className="text-white-600 hover:text-blue-600">Support</a></li>
             </ul>
           </div>
-
+    
           {/* Stay Updated */}
           <div>
             <h3 className="text-lg font-semibold text-white-800">Stay Updated</h3>
@@ -61,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 border-t pt-6 text-center text-white-600">
-          <p>&copy; 2024 Replaice.ai. All rights reserved.</p>
+          <p>&copy; 2025 replaice.ai. All rights reserved.</p>
           <div className="flex justify-center space-x-4 mt-2">
             <a href="#" className="hover:text-blue-600">Privacy Policy</a>
             <a href="#" className="hover:text-blue-600">Terms of Service</a>

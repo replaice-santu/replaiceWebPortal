@@ -13,9 +13,9 @@ exports.createCandidate = async (req, res) => {
     });
 
     await candidate.save();
-    res.status(201).json({ message: 'Candidate created successfully. Our team will review your application shortly!' });
+    res.status(201).json({ message: 'Thanks for sharing your details. Our AI agent will review your application shortly!' });
   } catch (error) {
     console.error('Error creating candidate:', error);
-    res.status(500).json({ message: 'Failed to create candidate. Please try again later.' });
+    res.status(500).json({ message: 'Failed to share your details. Please try again later.' });
   }
 };

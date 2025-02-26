@@ -25,7 +25,7 @@ exports.createContact = async (req, res) => {
     });
 
     await contact.save();
-    res.status(201).json({ message: 'Thanks for Contacting, Our AI Agent will connect you shortly!' });
+    res.status(201).json({ message: 'Thanks for sharing your details, Our AI Agent will connect you shortly!' });
   } catch (error) {
     console.error('Error creating contact:', error);
     res.status(500).json({ message: 'Failed to create contact' });

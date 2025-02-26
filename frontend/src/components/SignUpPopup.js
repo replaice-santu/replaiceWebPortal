@@ -24,7 +24,7 @@ const SignUpPopup = ({ onClose, onSubmit, message }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-3xl">
-        <h2 className="text-2xl font-bold mb-4">Get started with Replaice AI</h2>
+        <h2 className="text-2xl font-bold mb-4">Get started with Replaice</h2>
         <form className="grid grid-cols-1 md:grid-cols-2 gap-4" onSubmit={handleSubmit}>
           <div>
             <label className="block text-gray-700">First Name *</label>
@@ -94,6 +94,8 @@ const SignUpPopup = ({ onClose, onSubmit, message }) => {
               <option value="Customer Support">Customer Support</option>
               <option value="Human Resource">Human Resource</option>
               <option value="Sales">Sales</option>
+              <option value="BackOffice Agent">BackOffice Agent</option>
+              <option value="Other">Other</option>
             </select>
           </div>
           <div>
@@ -106,8 +108,10 @@ const SignUpPopup = ({ onClose, onSubmit, message }) => {
               required
             >
               <option value="">Please select</option>
-              <option value="USA">USA</option>
               <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="UAE">UAE</option>
+              <option value="Europe">Europe</option>
               <option value="Other">Other</option>
             </select>
           </div>
@@ -124,6 +128,7 @@ const SignUpPopup = ({ onClose, onSubmit, message }) => {
               <option value="Supply Chain">Supply Chain</option>
               <option value="Insurance">Insurance</option>
               <option value="Retail">Retail</option>
+              <option value="Other">Other</option>
             </select>
           </div>
           <div className="mt-6 flex justify-end md:col-span-2">

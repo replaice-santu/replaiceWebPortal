@@ -28,7 +28,7 @@ const PricingPage = () => {
           {/* Free Plan */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Free</h2>
-            <p className="text-gray-600 mb-6">Build and deploy AI tools and agents.</p>
+            <p className="text-gray-600 mb-6">Hire and deploy AI tools and agents.</p>
             <p className="text-4xl font-bold mb-2">$0</p>
             <p className="text-gray-600 mb-6">per month</p>
             <button className="bg-blue-600 text-white px-4 py-2 rounded w-full">Try now</button>
@@ -44,13 +44,13 @@ const PricingPage = () => {
           {/* Pro Plan */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Pro</h2>
-            <p className="text-gray-600 mb-6">Take your AI app to production at scale.</p>
+            <p className="text-gray-600 mb-6">Take your AI agents to production at scale.</p>
             <p className="text-4xl font-bold mb-2">$19</p>
             <p className="text-gray-600 mb-6">per month</p>
             <button className="bg-blue-600 text-white px-4 py-2 rounded w-full">Try now</button>
             <ul className="mt-6 space-y-2 text-gray-600">
-              <li>&#10003; 10,000 credits /month</li>
-              <li>&#10003; 4 credits per run</li>
+              <li>&#10003; 5,000 credits /month</li>
+              <li>&#10003; 10 credits per run</li>
               <li>&#10003; 1 user</li>
               <li>&#10003; 100MB of Knowledge</li>
               <li>&#10003; Schedule app runs</li>

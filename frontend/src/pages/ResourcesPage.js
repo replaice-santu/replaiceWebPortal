@@ -15,8 +15,8 @@ const resourcesData = [
   { id: 12, category: 'Sales', title: 'Salesforce', icon: '🌟' },
   { id: 13, category: 'Marketing', title: 'Gmail', icon: '✉️' },
   { id: 14, category: 'Developers', title: 'Google Drive', icon: '📂' },
-  { id: 15, category: 'Marketing', title: 'LinkedIn', icon: '🔗' },
-  { id: 16, category: 'Sales', title: 'Salesforce', icon: '🌟' },
+  { id: 15, category: 'Marketing', title: 'Instagram', icon: '🔗' },
+  { id: 16, category: 'Sales', title: 'HubSpot', icon: '🌟' },
   { id: 17, category: 'HR', title: 'WorkDay', icon: '🛠️' },
 ];
 
