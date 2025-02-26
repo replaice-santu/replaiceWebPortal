@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c14598b.css",
+    "main.js": "/static/js/main.ea011ab9.js",
+    "static/media/joinus.jpeg": "/static/media/joinus.7be9600a9cbd7b85a0d4.jpeg",
+    "static/media/hero-image.svg": "/static/media/hero-image.97d83ff433b683dd46958cc54166eab6.svg",
+    "static/media/Meta.png": "/static/media/Meta.322d4ea5d2762a5f6ba1.png",
+    "static/media/Hugging-Face.png": "/static/media/Hugging-Face.6c0b06319907d5326d58.png",
+    "static/media/OpenAI.png": "/static/media/OpenAI.02e849831cc144b103fe.png",
+    "static/media/nvidia.png": "/static/media/nvidia.b422ecd9ec4cfd9217c2.png",
+    "static/media/logo.png": "/static/media/logo.5eac8bc85eecef2697b0.png",
+    "index.html": "/index.html",
+    "main.0c14598b.css.map": "/static/css/main.0c14598b.css.map",
+    "main.ea011ab9.js.map": "/static/js/main.ea011ab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c14598b.css",
+    "static/js/main.ea011ab9.js"
+  ]
+}
